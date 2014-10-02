@@ -69,7 +69,6 @@ BOARD_USE_RESAMPLER_IN_PCM_OFFLOAD_PATH := true
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
-BLUETOOTH_HCI_USE_MCT := true
 
 # Charger
 BOARD_CHARGER_RES := device/oppo/msm8974-common/charger/images
