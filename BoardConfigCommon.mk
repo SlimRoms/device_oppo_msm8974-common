@@ -66,7 +66,6 @@ BLUETOOTH_HCI_USE_MCT := true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
-BOARD_CHARGER_RES := device/oppo/msm8974-common/charger/images
 
 # Graphics
 BOARD_EGL_CFG := device/oppo/msm8974-common/configs/egl.cfg
