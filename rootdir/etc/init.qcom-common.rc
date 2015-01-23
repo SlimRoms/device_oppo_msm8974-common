@@ -384,11 +384,11 @@ on property:init.svc.bootanim=stopped
     write /sys/devices/system/cpu/cpufreq/slim/optimal_freq 300000
     write /sys/devices/system/cpu/cpufreq/slim/powersave_bias 0
     write /sys/devices/system/cpu/cpufreq/slim/sampling_down_factor 1
-    write /sys/devices/system/cpu/cpufreq/slim/sampling_rate 15000
+    write /sys/devices/system/cpu/cpufreq/slim/sampling_rate 30000
     write /sys/devices/system/cpu/cpufreq/slim/sampling_rate_min 10000
     write /sys/devices/system/cpu/cpufreq/slim/sync_freq 300000
     write /sys/devices/system/cpu/cpufreq/slim/two_phase_freq 1728000, 1728000, 1728000, 1728000
-    write /sys/devices/system/cpu/cpufreq/slim/ui_sampling_rate 15000
+    write /sys/devices/system/cpu/cpufreq/slim/ui_sampling_rate 30000
     write /sys/devices/system/cpu/cpufreq/slim/up_threshold 90
     write /sys/devices/system/cpu/cpufreq/slim/up_threshold_any_cpu_load 90
     write /sys/devices/system/cpu/cpufreq/slim/up_threshold_multi_core 90
