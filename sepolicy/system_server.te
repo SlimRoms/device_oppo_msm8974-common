@@ -1,0 +1,2 @@
+# timerfd
+allow system_server rtc_device:chr_file rw_file_perms;
