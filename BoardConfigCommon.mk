@@ -128,7 +128,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 PROTOBUF_SUPPORTED := true
 
 # Enable transparent compression in the build
-TARGET_TRANSPARENT_COMPRESSION_METHOD := lz4
+# TARGET_TRANSPARENT_COMPRESSION_METHOD := lz4
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
