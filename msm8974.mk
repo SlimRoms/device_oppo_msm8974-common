@@ -228,9 +228,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.telephony.call_ring.multiple=0
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qti.sensors.ir_proximity=true
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
