@@ -18,6 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),oppo)
 ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
+ifneq ($(TARGET_DEVICE),bacon)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
@@ -166,3 +167,5 @@ $(shell mkdir -p $(TARGET_OUT)/etc/firmware/wlan/prima; \
 
 endif
 endif
+endif
+
